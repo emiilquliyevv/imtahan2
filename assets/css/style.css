@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   
+}
+a{
+    text-decoration: none;
+}
+nav{
+    padding: 20px 0px;
+}
+header{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d4/New_York_City_at_night_HDR_edit1.jpg);
+    height: 100vh;
+}
+.container{
+    width: 80%;
+    margin-top: 50px; 
+    height: 50px;
+    margin-left: 70px;
+    background-color: transparent;
+}
+nav ul.menu li{
+    display: inline-block;
+    margin-left: 30px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul.menu a{
+    color: white;
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: beige;
+}
+.slogan b{
+    font-size: 30px;
+    display: block;
+    text-transform: capitalize;
+}
+.slogan i{
+    font-size: 70px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.section{
+    width: 100%;
+}
+.txt1{
+    margin: top;
+}
+.section p{
+    font-size: 50px;
+    color: chocolate;
+}
+.section span.lorem{
+    color: black;
+}
+.section-white{
+    margin-top: 50px;
+}
